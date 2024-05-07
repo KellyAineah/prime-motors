@@ -1,11 +1,8 @@
 import React from 'react';
 
-function Logout({ handleLogout }) {
+function Logout() {
   return (
-    <div>
-      <h2>Logout</h2>
-      <button onClick={handleLogout}>Logout</button>
-    </div>
+    <Logout />
   );
 }
 
