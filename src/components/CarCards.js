@@ -7,8 +7,8 @@ function CarCards({carDetails}) {
     <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" src={carDetails.image} />
     <Card.Body>
-      <Card.Title>{carDetails.name}</Card.Title>
-      <Card.Text>
+      <Card.Title className='car-title'>{carDetails.name}</Card.Title>
+      <Card.Text className="car-details">
         Model :{carDetails.model}
         Description :{carDetails.description}
         Price :{carDetails.price}
