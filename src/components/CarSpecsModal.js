@@ -8,7 +8,7 @@ function CarSpecsModal({ show, onHide, specs }) {
         <Modal.Title>Car Specifications</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <ul>
+        <ul>          
           <li>Engine: {specs.engine}</li>
 
           <li>Transmission: {specs.transmission}</li>
@@ -24,7 +24,7 @@ function CarSpecsModal({ show, onHide, specs }) {
       </Modal.Body>
 
       <Modal.Footer>
-        <Button variant="secondary" onClick={onHide}>
+        <Button variant="danger" onClick={onHide}>
           Close
         </Button>
       </Modal.Footer>

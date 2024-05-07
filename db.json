@@ -58,28 +58,59 @@
     },
     {
       "id": 5,
+      "name": "Audi",
       "image": "https://images.pexels.com/photos/1035108/pexels-photo-1035108.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "description": "A striking blue under the sunlight",
-      "price": 3.99
+      "description": "A striking blue under the sunlight.",
+      "price": 3.99,
+      "model": "Q5",
+      "engine": "3.0L TFSI V6",
+      "transmission": "8-speed automatic",
+      "drive": "Quattro all-wheel drive",
+      "interior": "Leather",
+      "availability": "In stock",
+      "mileage": "12,000 miles"
     },
     {
       "id": 6,
       "name": "Lamborghini",
       "image": "https://images.pexels.com/photos/3972755/pexels-photo-3972755.jpeg",
+      "model": "Aventador",
       "description": "An eye-catching orange car with a smooth,polished exterior.",
-      "price": 9.99
+      "price": 9.99,
+      "engine": "6.5L V12",
+      "transmission": "7-speed automatic",
+      "drive": "All-wheel drive",
+      "interior": "Leather",
+      "availability": "In stock",
+      "mileage": "5,000 miles"
     },
     {
       "id": 7,
+      "name": "Audi",
       "image": "https://images.pexels.com/photos/4101746/pexels-photo-4101746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "description": "Bluetooth Speaker, 10-hr battery life, USB charge",
-      "price": 5.99
+      "description": "A sleek brown car with a luxurious interior",
+      "model": "A6",
+      "price": 5.99,
+      "engine": "3.0L TFSI V6",
+      "transmission": "8-speed automatic",
+      "drive": "All-wheel drive (Quattro)",
+      "interior": "Leather",
+      "availability": "In stock",
+      "mileage": "10,000 miles"
     },
     {
       "id": 8,
+      "name": "BMW",
       "image": "https://images.pexels.com/photos/951318/pexels-photo-951318.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "description": "Fitness Band, heart rate sensor, customizable bands",
-      "price": 2.99
+      "model": "X7",
+      "price": 2.99,
+      "engine": "3.0L B58 inline-6",
+      "transmission": "8-speed automatic",
+      "drive": "All-wheel drive",
+      "interior": "Grey Leather",
+      "availability": "In stock",
+      "mileage": "10,000 miles"
     },
     {
       "id": 9,
@@ -87,7 +118,12 @@
       "image": "https://images.pexels.com/photos/3729464/pexels-photo-3729464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "description": "A sleek,vibrant red car with a glossy finish.",
       "price": 10.99,
-      "model": "PQ3"
+      "model": "PQ3",
+      "engine": "3.0L V6 Biturbo",
+      "transmission": "7-speed automatic",
+      "drive": "Rear-wheel drive",
+      "interior": "Black Leather",
+      "mileage": "10 miles"
     },
     {
       "id": 10,
@@ -95,7 +131,13 @@
       "image": "https://images.pexels.com/photos/11583778/pexels-photo-11583778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "description": "a luxury British SUV known for it's off-road abilities",
       "price": 55.4,
-      "model": "EWQ"
+      "model": "EWQ",
+      "engine": "3.0L P400 MHEV",
+      "transmission": "8-speed automatic",
+      "drive": "All-wheel drive",
+      "interior": "Leather",
+      "availability": "In stock",
+      "mileage": "5,000 miles"
     },
     {
       "id": 11,

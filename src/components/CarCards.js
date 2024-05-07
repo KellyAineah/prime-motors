@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CarSpecsModal from './CarSpecsModal';
+import "./CarCards.css"
 function CarCards({carDetails}) {
    const[showSpecsModal,setShowSpecsModal]=useState(false)
 
@@ -20,9 +21,9 @@ function handleHideSpecs(){
     <Card.Body>
       <Card.Title className='car-title'>{carDetails.name}</Card.Title>
       <Card.Text className="car-details">
-        Model :{carDetails.model}
-        Description :{carDetails.description}
-        Price :{carDetails.price}
+        Model :{carDetails.model}   <br/>
+        Description :{carDetails.description}   <br/>
+        Price : Kshs.{carDetails.price}M
       </Card.Text>
       <Button variant="dark" onClick={handleShowSpecs}>More Details</Button>
     </Card.Body>
