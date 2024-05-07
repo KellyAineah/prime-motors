@@ -1,17 +1,21 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-
-export default class App extends Component {
-  static propTypes = {
-    prop: PropTypes
-  }
-
-  render() {
-    return (
-      <div>
-        
-      </div>
-    )
-  }
+import React from 'react'
+import { LogIn } from './Components/LogIn';
+function App () {
+  return (
+    <div className="App">
+    <LogIn />
+    </div>
+  );
 }
+
+export default App;
+
+
+
+
+
+
+
+
+
 
