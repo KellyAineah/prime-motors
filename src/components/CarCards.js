@@ -1,9 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import CarSpecsModal from './CarSpecsModal';
 function CarCards({carDetails}) {
-   
+   const[showSpecsModal,setShowSpecsModal]=useState(false)
+
+//Function to handle show specifications modal
+function handleShowSpecs(){
+  setShowSpecsModal(true)
+}
+//Function to handle to hide specifications modal
+function handleHideSpecs(){
+  setShowSpecsModal(false)
+}
   return (
+    <>
     <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" src={carDetails.image} />
     <Card.Body>
@@ -16,6 +27,10 @@ function CarCards({carDetails}) {
       <Button variant="dark">More Details</Button>
     </Card.Body>
   </Card>
+
+  <CarSpecsModal show={handleShowSpecs} onHide={handleHideSpecs}/>
+{/*Rememeber to add a prop to show car specifications */}
+  </>
 );
   
 }
