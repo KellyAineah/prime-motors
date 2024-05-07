@@ -24,12 +24,12 @@ function handleHideSpecs(){
         Description :{carDetails.description}
         Price :{carDetails.price}
       </Card.Text>
-      <Button variant="dark">More Details</Button>
+      <Button variant="dark" onClick={handleShowSpecs}>More Details</Button>
     </Card.Body>
   </Card>
 
-  <CarSpecsModal show={handleShowSpecs} onHide={handleHideSpecs}/>
-{/*Rememeber to add a prop to show car specifications */}
+  <CarSpecsModal show={showSpecsModal} onHide={handleHideSpecs} specs={carDetails}/>
+
   </>
 );
   

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import CarsList from './components/CarsList'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import CarSpecsModal from './components/CarSpecsModal';
 export default function App() {
     const[carsData,setCarsData]=useState([])
     useEffect(()=>{
@@ -12,6 +13,7 @@ export default function App() {
   return (
     <div>
         <CarsList cars={carsData}/>
+        <CarSpecsModal specs={carsData}/>
     </div>
   )
 }
