@@ -1,0 +1,69 @@
+{
+    "cars": [
+      {
+        "id": 1,
+        "name": "Lexus",
+        "image": "https://images.pexels.com/photos/2684218/pexels-photo-2684218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "Classic Blue T-shirt, 100% cotton, sizes available S to XL",
+        "price": 5555,
+        "model": "Toyota"
+      },
+      {
+        "id": 2,
+        "name": "BMW",  
+        "image": "https://images.pexels.com/photos/794435/pexels-photo-794435.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "Digital Watch, water resistant, black strap",
+        "price": 4000.99,
+        "model": "G-20"
+      },
+      {
+        "id": 3,
+        "name": "Mercedes",
+        "image": "https://images.pexels.com/photos/2365572/pexels-photo-2365572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "Leather Wallet, genuine leather, multiple compartments",
+        "price": 3500.99,
+        "model": "EQS"
+      },
+      {
+        "id": 4,
+        "name":"Mercedes",
+        "image": "https://images.pexels.com/photos/1429775/pexels-photo-1429775.jpeg",
+        "description": "Sunglasses, polarized lenses, UV protection",
+        "price": 29000.99,
+        "model": "AMG"
+      },
+      {
+        "id": 5,
+        "image": "https://images.pexels.com/photos/1035108/pexels-photo-1035108.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "Backpack, waterproof, 20L capacity, blue",
+        "price": 39.99
+      },
+      {
+        "id": 6,
+        "name": "Lamborghini",
+        "image": "https://images.pexels.com/photos/3972755/pexels-photo-3972755.jpeg",
+        "description": "White Ceramic Mug, 350ml, dishwasher safe",
+        "price": 9.99
+      },
+      {
+        "id": 7,
+        "image": "https://images.pexels.com/photos/4101746/pexels-photo-4101746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "Bluetooth Speaker, 10-hr battery life, USB charge",
+        "price": 59.99
+      },
+      {
+        "id": 8,
+        "image": "https://images.pexels.com/photos/951318/pexels-photo-951318.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "Fitness Band, heart rate sensor, customizable bands",
+        "price": 29.99
+      },
+      {
+  
+        "id": 9,
+        "image": "https://images.pexels.com/photos/3729464/pexels-photo-3729464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "Office Chair, ergonomic design, adjustable height",
+        "price": 109.99
+      }
+    ]
+  }
+  
