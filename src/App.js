@@ -1,10 +1,12 @@
 
 import React from 'react'
 import { LogIn } from './Components/LogIn';
+import SellYourCar from './SellYourCar'
 function App () {
   return (
     <div>
-    <LogIn />
+      <LogIn />
+      <SellYourCar/>
     </div>
   );
 }
