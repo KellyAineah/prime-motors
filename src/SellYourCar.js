@@ -17,7 +17,7 @@ function SellYourCar() {
       notifications,
     };
 
-    fetch("/your-api-endpoint", {
+    fetch("http://localhost:4000/sellYourCar", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
