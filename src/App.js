@@ -14,7 +14,6 @@ import SellYourCar from "./SellYourCar";
         .then(data=>setCarsData(data))
     },[])
   
->>>>>>> main
   return (
     <div>
       <LogIn />
