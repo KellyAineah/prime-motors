@@ -6,6 +6,9 @@ import Home from './components/Home'
 import Navbar from './components/Navbar'
 import { LogIn } from './components/LogIn';
 import SellYourCar from "./SellYourCar";
+
+
+
  function App() {
     const[carsData,setCarsData]=useState([])
     useEffect(()=>{
@@ -14,9 +17,11 @@ import SellYourCar from "./SellYourCar";
         .then(data=>setCarsData(data))
     },[])
   
->>>>>>> main
+
   return (
     <div>
+      <Navbar />
+      <Home />
       <LogIn />
       <SellYourCar />
         <CarsList cars={carsData}/>
