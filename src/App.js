@@ -15,9 +15,11 @@ function App() {
       .then((data) => setCarsData(data));
   }, []);
 
+
   return (
     <div>
       <Navbar />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<LogIn />} />
@@ -26,6 +28,7 @@ function App() {
       </Routes>
 
       {/*<Home />
+
       <LogIn />
       <SellYourCar />
         {/*<CarsList cars={carsData}/>*/}
