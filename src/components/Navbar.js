@@ -23,13 +23,13 @@ function Navbar() {
         </li>
 
         <li>
-          <NavLink to="./login">Sell Your Car</NavLink>
+          <NavLink to="./login">Login</NavLink>
         </li>
         <li>
-          <NavLink to="./sellyourcar">Contact Us</NavLink>
+          <NavLink to="./sellyourcar">Sell Your Car</NavLink>
         </li>
         <li>
-          <NavLink to="./">login</NavLink>
+          <NavLink to="./contactUs">Contact Us</NavLink>
         </li>
       </ul>
     </nav>
