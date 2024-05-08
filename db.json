@@ -1,69 +1,172 @@
 {
-    "cars": [
-      {
-        "id": 1,
-        "name": "Lexus",
-        "image": "https://images.pexels.com/photos/2684218/pexels-photo-2684218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "description": "Classic Blue T-shirt, 100% cotton, sizes available S to XL",
-        "price": 5555,
-        "model": "Toyota"
-      },
-      {
-        "id": 2,
-        "name": "BMW",  
-        "image": "https://images.pexels.com/photos/794435/pexels-photo-794435.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "description": "Digital Watch, water resistant, black strap",
-        "price": 4000.99,
-        "model": "G-20"
-      },
-      {
-        "id": 3,
-        "name": "Mercedes",
-        "image": "https://images.pexels.com/photos/2365572/pexels-photo-2365572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "description": "Leather Wallet, genuine leather, multiple compartments",
-        "price": 3500.99,
-        "model": "EQS"
-      },
-      {
-        "id": 4,
-        "name":"Mercedes",
-        "image": "https://images.pexels.com/photos/1429775/pexels-photo-1429775.jpeg",
-        "description": "Sunglasses, polarized lenses, UV protection",
-        "price": 29000.99,
-        "model": "AMG"
-      },
-      {
-        "id": 5,
-        "image": "https://images.pexels.com/photos/1035108/pexels-photo-1035108.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "description": "Backpack, waterproof, 20L capacity, blue",
-        "price": 39.99
-      },
-      {
-        "id": 6,
-        "name": "Lamborghini",
-        "image": "https://images.pexels.com/photos/3972755/pexels-photo-3972755.jpeg",
-        "description": "White Ceramic Mug, 350ml, dishwasher safe",
-        "price": 9.99
-      },
-      {
-        "id": 7,
-        "image": "https://images.pexels.com/photos/4101746/pexels-photo-4101746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "description": "Bluetooth Speaker, 10-hr battery life, USB charge",
-        "price": 59.99
-      },
-      {
-        "id": 8,
-        "image": "https://images.pexels.com/photos/951318/pexels-photo-951318.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "description": "Fitness Band, heart rate sensor, customizable bands",
-        "price": 29.99
-      },
-      {
+  "cars": [
+    {
+      "id": "1",
+      "name": "Lexus",
+      "image": "https://images.pexels.com/photos/2684218/pexels-photo-2684218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "A sleek design with reliable performances and features.",
+      "price": 5.55,
+      "model": "Toyota",
+      "engine": "3.5L V6",
+      "transmission": "8-speed automatic",
+      "drive": "Front-wheel drive",
+      "interior": "Leather-trimmed seats",
+      "availability": "In stock",
+      "mileage": "20 MPG city, 28 MPG highway"
+    },
+    {
+      "id": "2",
+      "name": "BMW",
+      "image": "https://images.pexels.com/photos/100650/pexels-photo-100650.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": " Honed design, rear lights with distinctive L-shaped light graphics.",
+      "price": 42.99,
+      "model": "G-20",
+      "engine": "2.0L turbocharged inline-4",
+      "transmission": "8-speed automatic",
+      "drive": "Rear-wheel drive",
+      "interior": "Sensatec upholstery",
+      "availability": "Available for order",
+      "mileage": "24 MPG city, 32 MPG highway"
+    },
+    {
+      "id": "3",
+      "name": "Mercedes",
+      "image": "https://images.pexels.com/photos/2365572/pexels-photo-2365572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "An all-electric large luxury sedan",
+      "price": 50.99,
+      "model": "EQS",
+      "engine": "Dual electric motors",
+      "transmission": "Single-speed automatic",
+      "drive": "All-wheel drive",
+      "interior": "Premium leather seats",
+      "availability": "Available for order",
+      "mileage": "102 MPGe city, 93 MPGe highway"
+    },
+    {
+      "id": "4",
+      "name": "Mercedes",
+      "image": "https://images.pexels.com/photos/1429775/pexels-photo-1429775.jpeg",
+      "description": "A sleek,vibrant yellow exuding luxury and style.",
+      "price": 29.99,
+      "model": "AMG",
+      "engine": "5.0L V8 Biturbo",
+      "transmission": "7-speed automatic",
+      "drive": "Rear-wheel drive",
+      "interior": "Nappa leather seats with red stitching",
+      "availability": "In stock",
+      "mileage": "16 MPG city, 24 MPG highway"
+    },
+    {
+      "id": "5",
+      "name": "Audi",
+      "image": "https://images.pexels.com/photos/1035108/pexels-photo-1035108.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "A striking blue under the sunlight.",
+      "price": 3.99,
+      "model": "Q5",
+      "engine": "3.0L TFSI V6",
+      "transmission": "8-speed automatic",
+      "drive": "Quattro all-wheel drive",
+      "interior": "Leather",
+      "availability": "In stock",
+      "mileage": "12,000 miles"
+    },
+    {
+      "id": "6",
+      "name": "Lamborghini",
+      "image": "https://images.pexels.com/photos/3972755/pexels-photo-3972755.jpeg",
+      "model": "Aventador",
+      "description": "An eye-catching orange car with a smooth,polished exterior.",
+      "price": 9.99,
+      "engine": "6.5L V12",
+      "transmission": "7-speed automatic",
+      "drive": "All-wheel drive",
+      "interior": "Leather",
+      "availability": "In stock",
+      "mileage": "5,000 miles"
+    },
+    {
+      "id": "7",
+      "name": "Audi",
+      "image": "https://images.pexels.com/photos/4101746/pexels-photo-4101746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "A sleek brown car with a luxurious interior",
+      "model": "A6",
+      "price": 5.99,
+      "engine": "3.0L TFSI V6",
+      "transmission": "8-speed automatic",
+      "drive": "All-wheel drive (Quattro)",
+      "interior": "Leather",
+      "availability": "In stock",
+      "mileage": "10,000 miles"
+    },
+    {
+      "id": "8",
+      "name": "BMW",
+      "image": "https://images.pexels.com/photos/951318/pexels-photo-951318.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Fitness Band, heart rate sensor, customizable bands",
+      "model": "X7",
+      "price": 2.99,
+      "engine": "3.0L B58 inline-6",
+      "transmission": "8-speed automatic",
+      "drive": "All-wheel drive",
+      "interior": "Grey Leather",
+      "availability": "In stock",
+      "mileage": "10,000 miles"
+    },
+    {
+      "id": "9",
+      "name": "Mercedes",
+      "image": "https://images.pexels.com/photos/3729464/pexels-photo-3729464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "A sleek,vibrant red car with a glossy finish.",
+      "price": 10.99,
+      "model": "PQ3",
+      "engine": "3.0L V6 Biturbo",
+      "transmission": "7-speed automatic",
+      "drive": "Rear-wheel drive",
+      "interior": "Black Leather",
+      "mileage": "10 miles"
+    },
+    {
+      "id": "10",
+      "name": "Range Rover",
+      "image": "https://images.pexels.com/photos/11583778/pexels-photo-11583778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "a luxury British SUV known for it's off-road abilities",
+      "price": 55.4,
+      "model": "EWQ",
+      "engine": "3.0L P400 MHEV",
+      "transmission": "8-speed automatic",
+      "drive": "All-wheel drive",
+      "interior": "Leather",
+      "availability": "In stock",
+      "mileage": "5,000 miles"
+    },
+    {
+      "id": "11",
+      "name": "Dodge",
+      "image": "https://images.pexels.com/photos/10854772/pexels-photo-10854772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": " A powerful American muscle car",
+      "price": 34.1,
+      "model": "Challenger",
+      "engine": "6.2L V8 SRT Hellcat",
+      "transmission": "8-speed automatic",
+      "drive": "Rear-wheel drive",
+      "interior": "5-seater with premium cloth or leather upholstery",
+      "availability": "In stock",
+      "mileage": "13 MPG city, 22 MPG highway"
+    },
+    {
+      "id": "12",
+      "name": "Subaru",
+      "image": "https://images.pexels.com/photos/16675812/pexels-photo-16675812/free-photo-of-white-subaru-impreza-on-a-highway.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "A compact car known for its all-wheel drive capability",
+      "price": 12.1,
+      "model": "Impreza",
+      "engine": "2.0L 4-cylinder",
+      "transmission": "5-speed manual or CVT automatic",
+      "drive": "All-wheel drive",
+      "interior": "5-seater with cloth or leather upholstery",
+      "availability": "In stock",
+      "mileage": "28 MPG city, 36 MPG highway"
+    }
   
-        "id": 9,
-        "image": "https://images.pexels.com/photos/3729464/pexels-photo-3729464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "description": "Office Chair, ergonomic design, adjustable height",
-        "price": 109.99
-      }
-    ]
-  }
-  
+  ]
+}
