@@ -14,10 +14,9 @@ import SellYourCar from "./SellYourCar";
         .then(data=>setCarsData(data))
     },[])
   
+>>>>>>> main
   return (
     <div>
-      <Navbar />
-      <Home />
       <LogIn />
       <SellYourCar />
         <CarsList cars={carsData}/>
