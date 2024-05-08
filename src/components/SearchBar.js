@@ -5,13 +5,13 @@ function SearchBar() {
   return (
     <div>
       <div className='templateContainer'>
-        {/* Updated container to use flexbox */}
+       
         <div className='searchInput_Container' style={{ display: 'flex', alignItems: 'center' }}>
           <input
             id='searchInput'
             type='text'
             placeholder='Search here...'
-            style={{ flex: '1' }}  // Make input expand to fill available space
+            style={{ flex: '1' }} 
           />
           <button type="submit" style={{ marginLeft: '10px' }}>Search</button>  
         </div>
