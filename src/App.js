@@ -8,12 +8,17 @@ function App () {
       <LogIn />
       <SellYourCar/>
     </div>
-  );
+  )
 }
 
 
 
+
+
+
+
 export default App;
+
 
 
 
