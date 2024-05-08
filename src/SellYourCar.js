@@ -1,28 +1,79 @@
-import React from 'react';
-import './sellYourCar.css'
+import React, { useState } from 'react';
+// import ReactDOM from 'react-dom';
+import './sellYourCar.css';
 
-export default function SellYourCar() {
-  
-  const handleSubmit = (event) => {
+function SellYourCar() {
+  const [registrationNumber, setRegistrationNumber] = useState('');
+  const [make, setMake] = useState('');
+  // const [avatar, setAvatar] = useState("");
+  const [accidentHistory, setAccidentHistory] = useState('pro');
+  const [notifications, setNotifications] = useState(true);
+
+  function handleSubmit(event) {
     event.preventDefault();
-    // Handle form submission logic here
+    const formData = {
+      registrationNumber,
+      make,
+      accidentHistory,
+      notifications,
+    };
+    console.log(formData);
   }
 
   return (
-    <div className="sell-your-car-container">
-      <h3>Sell Your Car</h3>
-      <form className="sell-your-car-form" onSubmit={handleSubmit}>
-        <label className="sell-your-car-label" htmlFor="registration">
-          Registration Number <input className="sell-your-car-input" id="registration" name="registration"/>
-        </label>
-        <label className="sell-your-car-label" htmlFor="make">
-          Make <input className="sell-your-car-input" id="make" name="make"/>
-        </label>
-        <label className="sell-your-car-label" htmlFor="color">
-          Color <input className="sell-your-car-input" id="color" name="color"/>
-        </label>
-        <button className="sell-your-car-button" type="submit">Submit</button>
-      </form>
-    </div>
+    <form onSubmit={handleSubmit}>
+      <h1>Sell Your Car</h1>
+      <label htmlFor="registrationNumber">Registration Number</label>
+      <input
+        type="text"
+        id="registrationNumber"
+        value={registrationNumber}
+        onChange={(e) => setRegistrationNumber(e.target.value)}
+      />
+
+      <label htmlFor="make">Make</label>
+      <input
+        type="text"
+        id="make"
+        value={make}
+        onChange={(e) => setMake(e.target.value)}
+      />
+
+      {/* <label htmlFor="avatar">Avatar Image</label>
+      <input
+        type="text"
+        id="avatar"
+        value={avatar}
+        onChange={(e) => setAvatar(e.target.value)}
+      />
+      <img
+        src={avatar}
+        alt="Avatar preview"
+      /> */}
+
+      <label htmlFor="type">Has Accident History</label>
+      <select
+        id="type"
+        value={accidentHistory}
+        onChange={(e) => setAccidentHistory(e.target.value)}
+      >
+        <option value="pro">Yes</option>
+        <option value="normal">No</option>
+      </select>
+
+      <label>
+        Be notified on new offers
+        <input
+          type="checkbox"
+          id="notifications"
+          checked={notifications}
+          onChange={(e) => setNotifications(e.target.checked)}
+        />
+      </label>
+
+      <input type="submit" value="Submit" />
+    </form>
   );
 }
+
+export default SellYourCar;
