@@ -29,7 +29,7 @@ function Navbar() {
           <NavLink to="./sellyourcar">Contact Us</NavLink>
         </li>
         <li>
-          <NavLink to="./">login</NavLink>
+          <NavLink to="./">Login</NavLink>
         </li>
       </ul>
     </nav>
