@@ -12,13 +12,16 @@ export const LogIn = () => {
     };
   
     return (
+      <>
       <form onSubmit={handleSubmit}>
-        <input 
+        <label for="email">Email</label>
+        <input
           type="email" 
           placeholder="Email" 
           value={email} 
           onChange={(e) => setEmail(e.target.value)} 
         />
+        <label for="password">password</label>
         <input 
           type="password" 
           placeholder="**********" 
@@ -26,7 +29,9 @@ export const LogIn = () => {
           onChange={(e) => setPassword(e.target.value)} 
         />
         <button type="submit">Login</button>
-      </form>
+       </form>
+       <button>Don't have an Account? Register here</button>
+    </>
     );
   };
   
