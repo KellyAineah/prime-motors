@@ -25,6 +25,8 @@ function App() {
         <Route path="/login" element={<LogIn />} />
         <Route path="/cars" element={<CarsList cars={carsData} />} />
         <Route path="/sellyourcar" element={<SellYourCar />} />
+        <Route path="/contact" element={<Contact />} />
+
       </Routes>
 
       {/*<Home />
