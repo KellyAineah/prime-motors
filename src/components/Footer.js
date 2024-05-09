@@ -1,7 +1,8 @@
 import React from 'react';
 import './Footer.css';  
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faHippo, faPhone, faEnvelope, faCar} from '@fortawesome/free-solid-svg-icons'
+import {faHippo, faPhone, faEnvelope, faCar, faFaceAngry} from '@fortawesome/free-solid-svg-icons'
+import { faTwitter, faFacebook, faInstagram} from '@fortawesome/free-brands-svg-icons';
 
 
 function Footer() {
@@ -37,6 +38,10 @@ function Footer() {
                     </ul>
                 </div>
             </div>
+            <div className="copyright">
+        <p>&copy; {new Date().getFullYear()} Prime Motors. All rights reserved.</p>
+        <FontAwesomeIcon icon={faEnvelope} /> <FontAwesomeIcon icon={faTwitter} /> <FontAwesomeIcon icon={faFacebook} /> <FontAwesomeIcon icon={faInstagram} />
+      </div>
         </div>
     </footer>
   );

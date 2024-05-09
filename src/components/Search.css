@@ -42,3 +42,27 @@ button {
 button:hover {
     background-color: #2a2f33; 
 }
+
+
+
+
+.templateContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .searchInput_Container {
+    margin-top: 20px;
+  }
+  
+  .filteredCars {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .carItem {
+    margin: 10px;
+    text-align: center;
+  }

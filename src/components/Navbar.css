@@ -52,3 +52,21 @@ body {
 .nav li:hover{
     color: #E8967E;
 }
+
+.nav {
+    background-color: #36454F;
+    color: whitesmoke;
+   
+  }
+  
+  .nav.dark-mode {
+    background-color: #222;
+    color: #fff;
+  }
+  /* App.css */
+body.dark-mode {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  

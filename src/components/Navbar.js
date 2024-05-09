@@ -3,7 +3,9 @@ import "./Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHippo } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
+
 function Navbar() {
+  
   return (
     <nav className="nav">
       <a className="title">
