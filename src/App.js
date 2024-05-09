@@ -7,8 +7,8 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import { LogIn } from "./components/LogIn";
 import SellYourCar from "./SellYourCar";
-<<<<<<< HEAD
- function App() {
+import Contact from './components/Contact';
+function App() {
     const[carsData,setCarsData]=useState([])
     useEffect(()=>{
         fetch("http://localhost:4000/cars")
@@ -31,8 +31,10 @@ import SellYourCar from "./SellYourCar";
 
       <LogIn />
       <SellYourCar />
+
         {/*<CarsList cars={carsData}/>*/}
       {/*<CarSpecsModal specs={carsData}/>*/}
+
     </div>
   );
 }
