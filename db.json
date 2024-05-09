@@ -166,6 +166,14 @@
       "interior": "5-seater with cloth or leather upholstery",
       "availability": "In stock",
       "mileage": "28 MPG city, 36 MPG highway"
+    },
+    {
+      "id": "2ac9",
+      "carLikeId": "1"
+    },
+    {
+      "id": "6265",
+      "carLikeId": "2"
     }
   ]
 }
