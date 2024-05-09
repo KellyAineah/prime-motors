@@ -1,24 +1,39 @@
-import React from 'react'
-import './Navbar.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faHippo} from '@fortawesome/free-solid-svg-icons'
-
+import React from "react";
+import "./Navbar.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHippo } from "@fortawesome/free-solid-svg-icons";
+import { NavLink } from "react-router-dom";
 function Navbar() {
   return (
-    <nav className='nav'>
-      <a  className='title'><FontAwesomeIcon icon={faHippo} />PrimeMotors</a>
+    <nav className="nav">
+      <a className="title">
+        <FontAwesomeIcon icon={faHippo} />
+        PrimeMotors
+      </a>
       <ul>
-      <li className='active'><a href='/home'>Home</a></li>
-            <li><a href='/cars'>Cars</a></li>
-            <li><a href='/cart'>Cart</a></li>
-            <li><a href='/sell your car'>Sell Your Car</a></li>
-            <li><a href='/contact us'>Contact Us</a></li>
-            <li><a href='/login'>Login</a></li>
+        <li>
+          <NavLink to="/">Home</NavLink>
+        </li>
+        <li>
+          <NavLink to="./cars">Cars</NavLink>
+        </li>
 
-        
+        <li>
+          <NavLink to="./cart">Cart</NavLink>
+        </li>
+
+        <li>
+          <NavLink to="./login">Login</NavLink>
+        </li>
+        <li>
+          <NavLink to="./sellyourcar">Sell Your Car</NavLink>
+        </li>
+        <li>
+          <NavLink to="./contactUs">Contact Us</NavLink>
+        </li>
       </ul>
     </nav>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

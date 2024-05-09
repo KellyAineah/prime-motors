@@ -1,44 +1,72 @@
-/* SellYourCar.css */
+.sell-your-car-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-.sell-your-car-container {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .sell-your-car-form {
-    margin-top: 20px;
-  }
-  
-  .sell-your-car-label {
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  .sell-your-car-input {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    box-sizing: border-box;
-  }
-  
-  .sell-your-car-button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-top: 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-  }
-  
-  .sell-your-car-button:hover {
-    background-color: #0056b3;
-  }
-  
+.sell-your-car-form h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.sell-your-car-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.sell-your-car-form input[type="text"],
+.sell-your-car-form input[type="file"],
+.sell-your-car-form select,
+.sell-your-car-form input[type="checkbox"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.sell-your-car-form select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /* background: url("dropdown-arrow.png") no-repeat right center; */
+  background-size: 15px;
+}
+
+.sell-your-car-form .car-image {
+  margin-bottom: 20px;
+}
+
+.sell-your-car-form .car-image p {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.sell-your-car-form .car-image img {
+  max-width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.sell-your-car-form input[type="submit"] {
+  background-color: #302c21;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sell-your-car-form input[type="submit"]:hover {
+  background-color: #09090a;
+}
