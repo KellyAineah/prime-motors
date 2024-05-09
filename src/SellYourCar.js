@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './sellYourCar.css';
+import './sellYourCar.css'
 
 function SellYourCar() {
   const [registrationNumber, setRegistrationNumber] = useState('');
@@ -44,7 +44,7 @@ function SellYourCar() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className ="sell-your-car-form" onSubmit={handleSubmit}>
       <h1>Sell Your Car</h1>
       <label htmlFor="registrationNumber">Registration Number</label>
       <input
