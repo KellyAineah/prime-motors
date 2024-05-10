@@ -1,7 +1,7 @@
 {
   "cars": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Lexus",
       "image": "https://images.pexels.com/photos/2684218/pexels-photo-2684218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "description": "A sleek design with reliable performances and features.",
@@ -12,10 +12,11 @@
       "drive": "Front-wheel drive",
       "interior": "Leather-trimmed seats",
       "availability": "In stock",
-      "mileage": "20 MPG city, 28 MPG highway"
+      "mileage": "20 MPG city, 28 MPG highway",
+      "quantity": 0
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "BMW",
       "image": "https://images.pexels.com/photos/100650/pexels-photo-100650.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "description": " Honed design, rear lights with distinctive L-shaped light graphics.",
@@ -26,10 +27,11 @@
       "drive": "Rear-wheel drive",
       "interior": "Sensatec upholstery",
       "availability": "Available for order",
+      "quantity": 0,
       "mileage": "24 MPG city, 32 MPG highway"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Mercedes",
       "image": "https://images.pexels.com/photos/2365572/pexels-photo-2365572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "description": "An all-electric large luxury sedan",
@@ -40,10 +42,11 @@
       "drive": "All-wheel drive",
       "interior": "Premium leather seats",
       "availability": "Available for order",
-      "mileage": "102 MPGe city, 93 MPGe highway"
+      "mileage": "102 MPGe city, 93 MPGe highway",
+      "quantity": 0
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Mercedes",
       "image": "https://images.pexels.com/photos/1429775/pexels-photo-1429775.jpeg",
       "description": "A sleek,vibrant yellow exuding luxury and style.",
@@ -54,10 +57,13 @@
       "drive": "Rear-wheel drive",
       "interior": "Nappa leather seats with red stitching",
       "availability": "In stock",
-      "mileage": "16 MPG city, 24 MPG highway"
+      "mileage": "16 MPG city, 24 MPG highway",
+      "quantity": 0
+
+
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Audi",
       "image": "https://images.pexels.com/photos/1035108/pexels-photo-1035108.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "description": "A striking blue under the sunlight.",
@@ -68,10 +74,11 @@
       "drive": "Quattro all-wheel drive",
       "interior": "Leather",
       "availability": "In stock",
-      "mileage": "12,000 miles"
+      "mileage": "12,000 miles",
+      "quantity": 0
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Lamborghini",
       "image": "https://images.pexels.com/photos/3972755/pexels-photo-3972755.jpeg",
       "model": "Aventador",
@@ -82,10 +89,11 @@
       "drive": "All-wheel drive",
       "interior": "Leather",
       "availability": "In stock",
-      "mileage": "5,000 miles"
+      "mileage": "5,000 miles",
+      "quantity": 0
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Audi",
       "image": "https://images.pexels.com/photos/4101746/pexels-photo-4101746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "description": "A sleek brown car with a luxurious interior",
@@ -96,10 +104,11 @@
       "drive": "All-wheel drive (Quattro)",
       "interior": "Leather",
       "availability": "In stock",
-      "mileage": "10,000 miles"
+      "mileage": "10,000 miles",
+      "quantity": 0
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "BMW",
       "image": "https://images.pexels.com/photos/951318/pexels-photo-951318.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "description": "Fitness Band, heart rate sensor, customizable bands",
@@ -110,10 +119,11 @@
       "drive": "All-wheel drive",
       "interior": "Grey Leather",
       "availability": "In stock",
-      "mileage": "10,000 miles"
+      "mileage": "10,000 miles",
+      "quantity": 0
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Mercedes",
       "image": "https://images.pexels.com/photos/3729464/pexels-photo-3729464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "description": "A sleek,vibrant red car with a glossy finish.",
@@ -123,10 +133,11 @@
       "transmission": "7-speed automatic",
       "drive": "Rear-wheel drive",
       "interior": "Black Leather",
-      "mileage": "10 miles"
+      "mileage": "10 miles",
+      "quantity": 0
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Range Rover",
       "image": "https://images.pexels.com/photos/11583778/pexels-photo-11583778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "description": "a luxury British SUV known for it's off-road abilities",
@@ -137,10 +148,11 @@
       "drive": "All-wheel drive",
       "interior": "Leather",
       "availability": "In stock",
-      "mileage": "5,000 miles"
+      "mileage": "5,000 miles",
+      "quantity": 0
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Dodge",
       "image": "https://images.pexels.com/photos/10854772/pexels-photo-10854772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "description": " A powerful American muscle car",
@@ -151,10 +163,11 @@
       "drive": "Rear-wheel drive",
       "interior": "5-seater with premium cloth or leather upholstery",
       "availability": "In stock",
-      "mileage": "13 MPG city, 22 MPG highway"
+      "mileage": "13 MPG city, 22 MPG highway",
+      "quantity": 0
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Subaru",
       "image": "https://images.pexels.com/photos/16675812/pexels-photo-16675812/free-photo-of-white-subaru-impreza-on-a-highway.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "description": "A compact car known for its all-wheel drive capability",
@@ -165,7 +178,8 @@
       "drive": "All-wheel drive",
       "interior": "5-seater with cloth or leather upholstery",
       "availability": "In stock",
-      "mileage": "28 MPG city, 36 MPG highway"
-    }
+      "mileage": "28 MPG city, 36 MPG highway",
+      "quantity": 0
+    }  
   ]
 }
