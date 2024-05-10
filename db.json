@@ -13,7 +13,8 @@
       "interior": "Leather-trimmed seats",
       "availability": "In stock",
       "mileage": "20 MPG city, 28 MPG highway",
-      "quantity": 0
+      "likes": 2,
+      "quantity":0
     },
     {
       "id": "2",
@@ -27,8 +28,9 @@
       "drive": "Rear-wheel drive",
       "interior": "Sensatec upholstery",
       "availability": "Available for order",
-      "quantity": 0,
-      "mileage": "24 MPG city, 32 MPG highway"
+      "mileage": "24 MPG city, 32 MPG highway",
+      "likes": 2,
+      "quantity":0
     },
     {
       "id": "3",
@@ -43,7 +45,8 @@
       "interior": "Premium leather seats",
       "availability": "Available for order",
       "mileage": "102 MPGe city, 93 MPGe highway",
-      "quantity": 0
+      "likes": 0,
+      "quantity":0
     },
     {
       "id": "4",
@@ -58,9 +61,8 @@
       "interior": "Nappa leather seats with red stitching",
       "availability": "In stock",
       "mileage": "16 MPG city, 24 MPG highway",
-      "quantity": 0
-
-
+      "likes": 0,
+      "quantity":0
     },
     {
       "id": "5",
@@ -75,7 +77,8 @@
       "interior": "Leather",
       "availability": "In stock",
       "mileage": "12,000 miles",
-      "quantity": 0
+      "likes": 0,
+      "quantity":0
     },
     {
       "id": "6",
@@ -90,7 +93,8 @@
       "interior": "Leather",
       "availability": "In stock",
       "mileage": "5,000 miles",
-      "quantity": 0
+      "likes": 0,
+      "quantity":0
     },
     {
       "id": "7",
@@ -105,7 +109,8 @@
       "interior": "Leather",
       "availability": "In stock",
       "mileage": "10,000 miles",
-      "quantity": 0
+      "likes": 0,
+      "quantity":0
     },
     {
       "id": "8",
@@ -120,7 +125,8 @@
       "interior": "Grey Leather",
       "availability": "In stock",
       "mileage": "10,000 miles",
-      "quantity": 0
+      "likes": 0,
+      "quantity":0
     },
     {
       "id": "9",
@@ -134,7 +140,8 @@
       "drive": "Rear-wheel drive",
       "interior": "Black Leather",
       "mileage": "10 miles",
-      "quantity": 0
+      "likes": 0,
+      "quantity":0
     },
     {
       "id": "10",
@@ -149,7 +156,8 @@
       "interior": "Leather",
       "availability": "In stock",
       "mileage": "5,000 miles",
-      "quantity": 0
+      "likes": 0,
+      "quantity":0
     },
     {
       "id": "11",
@@ -164,7 +172,8 @@
       "interior": "5-seater with premium cloth or leather upholstery",
       "availability": "In stock",
       "mileage": "13 MPG city, 22 MPG highway",
-      "quantity": 0
+      "likes": 0,
+      "quantity":0
     },
     {
       "id": "12",
@@ -179,7 +188,58 @@
       "interior": "5-seater with cloth or leather upholstery",
       "availability": "In stock",
       "mileage": "28 MPG city, 36 MPG highway",
-      "quantity": 0
-    }  
+      "likes":0,
+      "quantity":0
+
+    }
+  ],
+  "sell": [
+    {
+      "id": "d1e5",
+      "registrationNumber": "KDE 555U",
+      "make": "Toyota",
+      "accidentHistory": "pro",
+      "notifications": true
+    },
+    {
+      "id": "5fee",
+      "registrationNumber": "KCU 555E",
+      "make": "toyota",
+      "accidentHistory": "no",
+      "notifications": true
+    }
+  ],
+  "randomFacts": [
+
+    {
+
+      "fact": "The first car radio was invented in 1929 by Paul Galvin."
+
+    },
+
+    {
+
+      "fact": "The average car has 30,000 parts."
+
+    },
+
+    {
+
+      "fact": "The Rolls-Royce Phantom comes with an umbrella stored in the door."
+
+    },
+
+    {
+
+      "fact": "The Volkswagen Golf is the second best-selling car of all time, with over 35 million units sold."
+
+    },
+
+    {
+
+      "fact": "The Ferrari logo is not a horse, but a prancing horse. It was inspired by a World War I fighter pilot."
+
+    }
+
   ]
 }

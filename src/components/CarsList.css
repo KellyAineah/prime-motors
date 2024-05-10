@@ -1,18 +1,15 @@
 .card-container {
+  display: flex;
 
-    display: flex;
-  
-    flex-wrap: wrap;
-  
-    justify-content: space-around;
-  
-  }
-  
-  
-  .card {
-  
-    margin: 10px;
-  
-    flex: 1 0 30%;
-  
-  }
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+
+  color: whitesmoke;
+}
+
+.card {
+  margin: 10px;
+
+  flex: 1 0 30%;
+}
