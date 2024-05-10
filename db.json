@@ -12,7 +12,8 @@
       "drive": "Front-wheel drive",
       "interior": "Leather-trimmed seats",
       "availability": "In stock",
-      "mileage": "20 MPG city, 28 MPG highway"
+      "mileage": "20 MPG city, 28 MPG highway",
+      "likes": 2
     },
     {
       "id": "2",
@@ -26,7 +27,8 @@
       "drive": "Rear-wheel drive",
       "interior": "Sensatec upholstery",
       "availability": "Available for order",
-      "mileage": "24 MPG city, 32 MPG highway"
+      "mileage": "24 MPG city, 32 MPG highway",
+      "likes": 2
     },
     {
       "id": "3",
@@ -40,7 +42,8 @@
       "drive": "All-wheel drive",
       "interior": "Premium leather seats",
       "availability": "Available for order",
-      "mileage": "102 MPGe city, 93 MPGe highway"
+      "mileage": "102 MPGe city, 93 MPGe highway",
+      "likes": 0
     },
     {
       "id": "4",
@@ -54,7 +57,8 @@
       "drive": "Rear-wheel drive",
       "interior": "Nappa leather seats with red stitching",
       "availability": "In stock",
-      "mileage": "16 MPG city, 24 MPG highway"
+      "mileage": "16 MPG city, 24 MPG highway",
+      "likes": 0
     },
     {
       "id": "5",
@@ -68,7 +72,8 @@
       "drive": "Quattro all-wheel drive",
       "interior": "Leather",
       "availability": "In stock",
-      "mileage": "12,000 miles"
+      "mileage": "12,000 miles",
+      "likes": 0
     },
     {
       "id": "6",
@@ -82,7 +87,8 @@
       "drive": "All-wheel drive",
       "interior": "Leather",
       "availability": "In stock",
-      "mileage": "5,000 miles"
+      "mileage": "5,000 miles",
+      "likes": 0
     },
     {
       "id": "7",
@@ -96,7 +102,8 @@
       "drive": "All-wheel drive (Quattro)",
       "interior": "Leather",
       "availability": "In stock",
-      "mileage": "10,000 miles"
+      "mileage": "10,000 miles",
+      "likes": 0
     },
     {
       "id": "8",
@@ -110,7 +117,8 @@
       "drive": "All-wheel drive",
       "interior": "Grey Leather",
       "availability": "In stock",
-      "mileage": "10,000 miles"
+      "mileage": "10,000 miles",
+      "likes": 0
     },
     {
       "id": "9",
@@ -123,7 +131,8 @@
       "transmission": "7-speed automatic",
       "drive": "Rear-wheel drive",
       "interior": "Black Leather",
-      "mileage": "10 miles"
+      "mileage": "10 miles",
+      "likes": 0
     },
     {
       "id": "10",
@@ -137,7 +146,8 @@
       "drive": "All-wheel drive",
       "interior": "Leather",
       "availability": "In stock",
-      "mileage": "5,000 miles"
+      "mileage": "5,000 miles",
+      "likes": 0
     },
     {
       "id": "11",
@@ -151,7 +161,8 @@
       "drive": "Rear-wheel drive",
       "interior": "5-seater with premium cloth or leather upholstery",
       "availability": "In stock",
-      "mileage": "13 MPG city, 22 MPG highway"
+      "mileage": "13 MPG city, 22 MPG highway",
+      "likes": 0
     },
     {
       "id": "12",
