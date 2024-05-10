@@ -13,7 +13,7 @@
       "interior": "Leather-trimmed seats",
       "availability": "In stock",
       "mileage": "20 MPG city, 28 MPG highway",
-      "likes": 0
+      "likes": 2
     },
     {
       "id": "2",
@@ -28,7 +28,7 @@
       "interior": "Sensatec upholstery",
       "availability": "Available for order",
       "mileage": "24 MPG city, 32 MPG highway",
-      "likes": 0
+      "likes": 2
     },
     {
       "id": "3",
@@ -179,5 +179,38 @@
       "mileage": "28 MPG city, 36 MPG highway",
       "likes": 0
     }
+  ],
+  "randomFacts": [
+
+    {
+
+      "fact": "The first car radio was invented in 1929 by Paul Galvin."
+
+    },
+
+    {
+
+      "fact": "The average car has 30,000 parts."
+
+    },
+
+    {
+
+      "fact": "The Rolls-Royce Phantom comes with an umbrella stored in the door."
+
+    },
+
+    {
+
+      "fact": "The Volkswagen Golf is the second best-selling car of all time, with over 35 million units sold."
+
+    },
+
+    {
+
+      "fact": "The Ferrari logo is not a horse, but a prancing horse. It was inspired by a World War I fighter pilot."
+
+    }
+
   ]
 }
