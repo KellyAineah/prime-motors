@@ -6,9 +6,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import "./CarCards.css";
+
 function CarCards({ carDetails }) {
   const [showSpecsModal, setShowSpecsModal] = useState(false);
 const [likes,setLikes]=useState(false)
+
+
   //Function to handle show specifications modal
   function handleShowSpecs() {
     setShowSpecsModal(true);
@@ -34,6 +37,7 @@ const [likes,setLikes]=useState(false)
   }
   return (
     <>
+     
       <Card style={{ width: "18rem" }}>
         <Card.Img variant="top" src={carDetails.image} />
         <Card.Body>

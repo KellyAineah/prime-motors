@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar";
 import { LogIn } from "./components/LogIn";
 import SellYourCar from "./SellYourCar";
 import Contact from './components/Contact';
+import {Register} from './components/Register'
 function App() {
     const[carsData,setCarsData]=useState([])
     useEffect(()=>{
@@ -16,16 +17,38 @@ function App() {
         .then(data=>setCarsData(data))
     },[])
 
+    const [currentForm, setCurrentForm] = useState('login'); 
+
+    const toggleForm = () => {
+      setCurrentForm((prevForm) => (prevForm === "login" ? "register" : "login"));
+
+    };
+    const getComponent = () => {
+
+      if (currentForm === "login") {
+  
+        return <LogIn onFormSwitch={toggleForm} />;
+  
+      } else {
+  
+        return <Register onFormSwitch={toggleForm} />;
+  
+      }
+  
+    };
+
+   
   return (
     <div>
+      
       <Navbar />
-
+      
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/login" element={<LogIn />} />
+        <Route path="/login" element={getComponent()} />
         <Route path="/cars" element={<CarsList cars={carsData} />} />
         <Route path="/sellyourcar" element={<SellYourCar />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contactUs" element={<Contact />} />
 
       </Routes>
 

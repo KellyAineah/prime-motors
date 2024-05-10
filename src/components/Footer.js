@@ -15,7 +15,7 @@ function Footer() {
                     <h4>About Prime Motors <FontAwesomeIcon icon={faCar} /></h4>
                 
                     <FontAwesomeIcon icon={faHippo} /> <FontAwesomeIcon icon={faHippo} /> <FontAwesomeIcon icon={faHippo} bounce/> <FontAwesomeIcon icon={faHippo} /> <FontAwesomeIcon icon={faHippo} />
-                   <p> Founded in 2024, Prime Motors is dedicated to delivering exceptional cars with top-notch service. Explore our trusted vehicle solutions in Kasarani, Nairobi. </p>
+                   <p> Founded in 2024, Prime Motors is dedicated to delivering exceptional cars with top-notch service. Explore our trusted vehicle solutions in Westlands, Nairobi. </p>
 
 
                 </div>
@@ -33,8 +33,8 @@ function Footer() {
                     <h4>Support</h4>
                     <ul className='list-unstyled'>
                         <li> <FontAwesomeIcon icon={faPhone} />   (254) 755-222-333</li>
-                        <li><FontAwesomeIcon icon={faEnvelope} />  <a href="mailto:support@primemotors.com">support@primemotors.com</a></li>
-                        <li>Hunters Street,    Kasarani</li>
+                        <li><FontAwesomeIcon icon={faEnvelope} />  <a href="mailto:support@primemotors.com">contact@primemotors.com</a></li>
+                        <li>Hunters Street,    Westlands</li>
                     </ul>
                 </div>
             </div>
