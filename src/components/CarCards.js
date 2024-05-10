@@ -1,51 +1,39 @@
-import React, { useState } from "react";
-
-import Button from "react-bootstrap/Button";
-
-import Card from "react-bootstrap/Card";
-
-import CarSpecsModal from "./CarSpecsModal";
-
+import React, { useState } from 'react'
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import CarSpecsModal from './CarSpecsModal';
+import "./CarCards.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
-import "./CarCards.css";
+function CarCards({carDetails, handleAddCar }) {
+   const[showSpecsModal,setShowSpecsModal]=useState(false)
+   const [likes, setLikes] = useState(carDetails.likes);
 
-function CarCards({ carDetails }) {
-  const [showSpecsModal, setShowSpecsModal] = useState(false);
+//Function to handle show specifications modal
+function handleShowSpecs(){
+  setShowSpecsModal(true)
+}
+//Function to handle to hide specifications modal
+function handleHideSpecs(){
+  setShowSpecsModal(false)
+}
 
-  const [likes, setLikes] = useState(carDetails.likes);
+function handleLike() {
+  fetch(`http://localhost:4000/cars/${carDetails.id}`, {
+    method: "PATCH",
 
-  //Function to handle show specifications modal
+    headers: { "Content-Type": "application/json" },
 
-  function handleShowSpecs() {
-    setShowSpecsModal(true);
-  }
+    body: JSON.stringify({ likes: likes + 1 }),
+  })
+    .then((r) => r.json())
 
-  //Function to handle to hide specifications modal
-
-  function handleHideSpecs() {
-    setShowSpecsModal(false);
-  }
-
-  //Function to handle liking  a car on the Car's page
-
-  function handleLike() {
-    fetch(`http://localhost:4000/cars/${carDetails.id}`, {
-      method: "PATCH",
-
-      headers: { "Content-Type": "application/json" },
-
-      body: JSON.stringify({ likes: likes + 1 }),
-    })
-      .then((r) => r.json())
-
-      .then((updatedCarDetails) => setLikes(updatedCarDetails.likes));
-  }
-
+    .then((updatedCarDetails) => setLikes(updatedCarDetails.likes));
+}
   return (
     <>
      
@@ -81,7 +69,7 @@ function CarCards({ carDetails }) {
               More Details
             </Button>
 
-            <Button variant="dark">
+            <Button variant="dark" onClick={() =>handleAddCar(carDetails)}>
               Add to Cart
               <FontAwesomeIcon icon={faCartShopping} />
             </Button>

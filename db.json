@@ -13,7 +13,8 @@
       "interior": "Leather-trimmed seats",
       "availability": "In stock",
       "mileage": "20 MPG city, 28 MPG highway",
-      "likes": 2
+      "likes": 2,
+      "quantity":0
     },
     {
       "id": "2",
@@ -28,7 +29,8 @@
       "interior": "Sensatec upholstery",
       "availability": "Available for order",
       "mileage": "24 MPG city, 32 MPG highway",
-      "likes": 2
+      "likes": 2,
+      "quantity":0
     },
     {
       "id": "3",
@@ -43,7 +45,8 @@
       "interior": "Premium leather seats",
       "availability": "Available for order",
       "mileage": "102 MPGe city, 93 MPGe highway",
-      "likes": 0
+      "likes": 0,
+      "quantity":0
     },
     {
       "id": "4",
@@ -58,7 +61,8 @@
       "interior": "Nappa leather seats with red stitching",
       "availability": "In stock",
       "mileage": "16 MPG city, 24 MPG highway",
-      "likes": 0
+      "likes": 0,
+      "quantity":0
     },
     {
       "id": "5",
@@ -73,7 +77,8 @@
       "interior": "Leather",
       "availability": "In stock",
       "mileage": "12,000 miles",
-      "likes": 0
+      "likes": 0,
+      "quantity":0
     },
     {
       "id": "6",
@@ -88,7 +93,8 @@
       "interior": "Leather",
       "availability": "In stock",
       "mileage": "5,000 miles",
-      "likes": 0
+      "likes": 0,
+      "quantity":0
     },
     {
       "id": "7",
@@ -103,7 +109,8 @@
       "interior": "Leather",
       "availability": "In stock",
       "mileage": "10,000 miles",
-      "likes": 0
+      "likes": 0,
+      "quantity":0
     },
     {
       "id": "8",
@@ -118,7 +125,8 @@
       "interior": "Grey Leather",
       "availability": "In stock",
       "mileage": "10,000 miles",
-      "likes": 0
+      "likes": 0,
+      "quantity":0
     },
     {
       "id": "9",
@@ -132,7 +140,8 @@
       "drive": "Rear-wheel drive",
       "interior": "Black Leather",
       "mileage": "10 miles",
-      "likes": 0
+      "likes": 0,
+      "quantity":0
     },
     {
       "id": "10",
@@ -147,7 +156,8 @@
       "interior": "Leather",
       "availability": "In stock",
       "mileage": "5,000 miles",
-      "likes": 0
+      "likes": 0,
+      "quantity":0
     },
     {
       "id": "11",
@@ -162,7 +172,8 @@
       "interior": "5-seater with premium cloth or leather upholstery",
       "availability": "In stock",
       "mileage": "13 MPG city, 22 MPG highway",
-      "likes": 0
+      "likes": 0,
+      "quantity":0
     },
     {
       "id": "12",
@@ -176,7 +187,10 @@
       "drive": "All-wheel drive",
       "interior": "5-seater with cloth or leather upholstery",
       "availability": "In stock",
-      "mileage": "28 MPG city, 36 MPG highway"
+      "mileage": "28 MPG city, 36 MPG highway",
+      "likes":0,
+      "quantity":0
+
     }
   ],
   "sell": [
