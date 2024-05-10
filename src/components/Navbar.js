@@ -7,10 +7,10 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <nav className="nav">
-      <a className="title">
+      <div className="title">
         <FontAwesomeIcon icon={faHippo} />
         PrimeMotors
-      </a>
+      </div>
       <ul>
         <li>
           <NavLink to="/">Home</NavLink>

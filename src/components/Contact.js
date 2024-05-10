@@ -24,7 +24,7 @@ export default function Contact() {
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-        ></iframe>
+          title="Unique Title" ></iframe>
       </div>
       <div className='contact details'>
         <h2>Contact Us</h2>
