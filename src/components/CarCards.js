@@ -48,6 +48,7 @@ function CarCards({ carDetails }) {
 
   return (
     <>
+     
       <Card style={{ width: "18rem" }}>
         <Card.Img variant="top" src={carDetails.image} />
 
