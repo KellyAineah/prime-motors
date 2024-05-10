@@ -2,7 +2,7 @@
 import React from 'react'
 import Carousel from './Carousel'
 import"./Paragraph.css"
-import SearchBar from './SearchBar'
+import RandomCarFacts from './SearchBar'
 import Footer from './Footer'
 
 function Home() {
@@ -13,7 +13,7 @@ function Home() {
         <span>Drive Your Dreams With PrimeMotors</span>
 
         </p>
-        <SearchBar />
+        <RandomCarFacts/>
       <Carousel />
       </div>
       <Footer />
