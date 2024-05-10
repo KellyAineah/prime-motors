@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Contact.css';
 
 export default function Contact() {
   const [newsletter, setNewsletter] = useState(true);
@@ -13,8 +14,9 @@ export default function Contact() {
 
   return (
     <>
+    <div className='mapper'>
       <div className='map'>
-        <iframe
+        <iframe className='frame'
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7411385237974!2d36.86381781009385!3d-1.331420835670563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f11f7b43e2125%3A0xc54eed0fc2524201!2sLibra%20House!5e0!3m2!1sen!2ske!4v1715239715635!5m2!1sen!2ske"
           width="600"
           height="450"
@@ -48,9 +50,10 @@ export default function Contact() {
               onChange={(e) => setNewsletter(e.target.checked)}
             />
           </label>
-          <button type="submit">Submit</button>
+          <button type="submit" className="submit-button">Submit</button>
           {/* <button type="submit" className="submit-button">Submit</button> */}
         </form>
+      </div>
       </div>
     </>
   );

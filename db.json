@@ -176,8 +176,23 @@
       "drive": "All-wheel drive",
       "interior": "5-seater with cloth or leather upholstery",
       "availability": "In stock",
-      "mileage": "28 MPG city, 36 MPG highway",
-      "likes": 0
+      "mileage": "28 MPG city, 36 MPG highway"
+    }
+  ],
+  "sell": [
+    {
+      "id": "d1e5",
+      "registrationNumber": "KDE 555U",
+      "make": "Toyota",
+      "accidentHistory": "pro",
+      "notifications": true
+    },
+    {
+      "id": "5fee",
+      "registrationNumber": "KCU 555E",
+      "make": "toyota",
+      "accidentHistory": "no",
+      "notifications": true
     }
   ],
   "randomFacts": [

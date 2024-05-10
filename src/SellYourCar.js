@@ -17,7 +17,7 @@ function SellYourCar() {
       notifications,
     };
 
-    fetch("http://localhost:4000/sellYourCar", {
+    fetch("http://localhost:4000/sell", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

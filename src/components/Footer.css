@@ -1,9 +1,10 @@
-/* Footer.css */
+
 .footer {
     background-color: #36454F; 
     color: whitesmoke;
     padding: 2rem;
     font-size: 90%;
+    margin-top: 9%;
 }
 
 .footer-content {

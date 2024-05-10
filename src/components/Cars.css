@@ -1,0 +1,42 @@
+.random-facts-container {
+  background-image: url('https://images.pexels.com/photos/756861/pexels-photo-756861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.random-facts-button {
+  background-color: #078b8b; 
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.random-facts-button:hover {
+  background-color: #36454F; 
+}
+
+.random-facts-text {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+.random-facts-text {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333; /* Default text color */
+}
+
+.random-facts-text-alternate {
+  color: #fff; 
+  font-weight: 600;
+}
