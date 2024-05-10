@@ -1,20 +1,72 @@
-form {
-    /**background-color: gray;**/
-    margin: 0.5rem;
-    display: flex;
-    flex-direction: column;
+.sell-your-car-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-input, select {
-    width: 50%; 
-    margin-bottom: 1rem;   
+.sell-your-car-form h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
 }
 
-input[type="checkbox"] {
-    width: 50%;
+.sell-your-car-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
 }
 
-img {
-    width: 50%;
-    margin-bottom: 1rem;
+.sell-your-car-form input[type="text"],
+.sell-your-car-form input[type="file"],
+.sell-your-car-form select,
+.sell-your-car-form input[type="checkbox"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.sell-your-car-form select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /* background: url("dropdown-arrow.png") no-repeat right center; */
+  background-size: 15px;
+}
+
+.sell-your-car-form .car-image {
+  margin-bottom: 20px;
+}
+
+.sell-your-car-form .car-image p {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.sell-your-car-form .car-image img {
+  max-width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.sell-your-car-form input[type="submit"] {
+  background-color: #302c21;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sell-your-car-form input[type="submit"]:hover {
+  background-color: #09090a;
 }
